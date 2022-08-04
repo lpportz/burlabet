@@ -2,29 +2,106 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-		#face {
-			color: #ffffff;
-			background-color: #0742f2;
-			font-size: 19px;
-			border: 1px solid #2d63c8;
-			padding: 15px 50px;
-			cursor: pointer
-		}
-		#face:hover {
-			color: #2d63c8;
-			background-color: #ffffff;
-		}
-	</style>
-    <title>Document</title>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgba(238, 238, 238, 0.932);
+            font-size: larger;
+            font-family: sans-serif;
+            padding: 50px;
+        }
+        .logo{
+            width: 100%;
+            text-align: center;
+            padding-bottom: 50px;
+            color: rgb(0, 0, 0);
+        }
+        .btn{
+            font-size: 18px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 10px;
+            font-weight: bold;
+            color: #fff;
+        }
+            .face{
+                background-color: #0572E6;
+                border-radius: 10px;
+                border-bottom: 5px solid #044b97;
+                transition: transform 0.3s;
+            }
+            .face:hover{
+                background-color: #298df8;
+                box-shadow: 0px 0px 20px #298df8;
+                transform: translate(0px, -5px);
+                transition: transform 0.3s;
+            }
+            .insta{
+                background-color: #AA39A9;
+                border-radius: 10px;
+                border-bottom: 5px solid #802a7e;
+                transition: transform 0.3s;
+            }
+            .insta:hover{
+                background-color: #ca6bc9;
+                box-shadow: 0px 0px 20px #ca6bc9;
+                transform: translate(0px, -5px);
+                transition: transform 0.3s;
+            }
+            .tiktok{
+                background-color: #1f1e1f;
+                border-radius: 10px;
+                border-bottom: 5px solid #0a0a0a;
+                transition: transform 0.3s;
+            }
+            .tiktok:hover{
+                background-color: #3b3b3b;
+                box-shadow: 0px 0px 20px #3b3b3b;
+                transform: translate(0px, -5px);
+                transition: transform 0.3s;
+            }
+            .yt{
+                background-color: #FF0000;
+                border-radius: 10px;
+                border-bottom: 5px solid #ad0101;
+                transition: transform 0.3s;
+            }
+            .yt:hover{
+                background-color: #eb3636;
+                box-shadow: 0px 0px 20px #eb3636;
+                transform: translate(0px, -5px);
+                transition: transform 0.3s;
+            }
+            .kwai{
+                background-color: #FF5000;
+                border-radius: 10px;
+                border-bottom: 5px solid #b63a00;
+                transition: transform 0.3s;
+            }
+            .kwai:hover{
+                background-color: #f3783f;
+                box-shadow: 0px 0px 20px #f3783f;
+                transform: translate(0px, -5px);
+                transition: transform 0.3s;
+            }
+
+    </style>
+    <title>Burla Bet</title>
 </head>
 <body>
-    <h1>Escolha uma rede social para acessar ao conteúdo</h1>
-
-    <a id="face" href="https://fb.watch/eseRdDlQc7/"><button>Facebook</button></a>
- 
-    
+    <div class="logo">
+        <h3>Escolha umas das plataformas abaixo para assistir o conteúdo.</h3>
+    </div>
+    <a href="https://www.facebook.com/betburla" class="btn face">Facebook</a>
+    <a href="https://www.instagram.com/burla_bet/" class="btn insta">Instagram</a>
+    <a href="https://www.tiktok.com/@burlabet" class="btn tiktok">Tic Tok</a>
+    <a href="https://www.youtube.com/channel/UC6qX4vhYatZ4ztnMdf4ImBw" class="btn yt">You Tube</a>
+    <a href="https://s.kw.ai/u/7Ch2aWDv" class="btn kwai">Kwai</a>
 </body>
 </html>
